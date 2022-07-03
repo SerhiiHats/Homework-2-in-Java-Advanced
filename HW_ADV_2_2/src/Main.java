@@ -26,7 +26,7 @@ public class Main {
          list.set(i, doubleValues(list.get(i)));
         }
 
-        System.out.println(Color.RED + "Полученый результат х2 удвоинные слова:" + Color.DEFAULT);
+        System.out.println(Color.BIRUZOVII + "Полученый результат х2 удвоинные слова:" + Color.DEFAULT);
         for (int i = 0; i < list.size(); i++) {
             System.out.println("Результат " + Color.GREEN + (i + 1) + "-е " + Color.DEFAULT + "слово: " + Color.GREEN + list.get(i) + Color.DEFAULT);
         }
